@@ -1,0 +1,12 @@
+[submodule "ext/asio"]
+	path = ext/asio
+	url = git@github.com:chriskohlhoff/asio.git
+[submodule "ext/LRDB"]
+	path = ext/LRDB
+	url = git@github.com:satoren/LRDB.git
+[submodule "ext/LuaBridge3"]
+	path = ext/LuaBridge3
+	url = git@github.com:kunitoki/LuaBridge3.git
+[submodule "ext/picojson"]
+	path = ext/picojson
+	url = git@github.com:kazuho/picojson.git

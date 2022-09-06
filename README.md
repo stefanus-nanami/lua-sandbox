@@ -1,2 +1,2 @@
-# lua-sandbox
-Lua sandbox using LRDB
+# LUA Sandbox
+Lua Sandbox using LRDB
