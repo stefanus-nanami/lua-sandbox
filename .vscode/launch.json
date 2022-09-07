@@ -6,10 +6,11 @@
     "configurations": [
         {
             "type": "lrdb",
-            "request": "launch",
-            "name": "Lua Launch",
-            "program": "${file}",
-            "cwd": "${workspaceFolder}",
+            "request": "attach",
+            "name": "Lua Attach",
+            "host": "localhost",
+            "port": 21110,
+            "sourceRoot": "${workspaceFolder}",
             "stopOnEntry": true
         }
     ]

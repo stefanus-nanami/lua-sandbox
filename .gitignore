@@ -3,3 +3,7 @@ build
 include
 lib
 man
+*.o
+ext/lua/src/liblua.a
+ext/lua/src/lua
+ext/lua/src/luac
