@@ -55,8 +55,8 @@ public:
 	}
 
 	void execute() {
-	  lrdb::server debug_server(21110);
-	  debug_server.reset(mLuaState);
+		lrdb::server debug_server(21110);
+	  	debug_server.reset(mLuaState);
 
 		lua_getglobal(mLuaState, "require");
 		lua_pushstring(mLuaState, "main");

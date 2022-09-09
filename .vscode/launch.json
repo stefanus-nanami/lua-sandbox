@@ -5,6 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Launch Host",
+            "program": "${workspaceFolder}/build/lua-sandbox",
+            "args": [],
+            "cwd": "${workspaceFolder}/build"
+        },
+        {
             "type": "lrdb",
             "request": "attach",
             "name": "Lua Attach",
